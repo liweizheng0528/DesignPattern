@@ -20,6 +20,26 @@
                     "ignoreFailures": true
                 }
             ]
+        },
+        {
+            "name": "Chain_of_Responsibility",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Chain_of_Responsibility/Chain_of_Responsibility",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
         }
     ]
 }
